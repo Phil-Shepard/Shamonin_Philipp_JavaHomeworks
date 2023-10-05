@@ -14,12 +14,13 @@
 
 
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <apache.commons-lang3.version>3.13.0</apache.commons-lang3.version>
-        <apache.commons-collections4.version>4.0</apache.commons-collections4.version>
-        <commons-io.commons-io.version>2.14.0</commons-io.commons-io.version>
+        <apache.commons-lang3.version>version {$apache.commons-lang3.version}</apache.commons-lang3.version>
+        <apache.commons-collections4.version>version {$apache.commons-collections4.version}</apache.commons-collections4.version>
+        <commons-io.commons-io.version>version {$commons-io.commons-io.version}</commons-io.commons-io.version>
+        <junit.junit.version>version {$junit.junit.version}</junit.junit.version>
     </properties>
 
     <dependencyManagement>
@@ -39,9 +40,13 @@
                 <artifactId>commons-io</artifactId>
                 <version>2.14.0</version>
             </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>3.8.2</version>
+                <scope>test</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
-
-
 
 </project>
