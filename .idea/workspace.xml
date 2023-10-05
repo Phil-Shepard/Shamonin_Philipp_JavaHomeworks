@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="547bc755-17de-4591-9c30-c89f8df8b508" name="Changes" comment="Первая домашка">
+    <list default="true" id="547bc755-17de-4591-9c30-c89f8df8b508" name="Changes" comment="Исправил_замечания">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Child_Module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Child_Module/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/urfu/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/urfu/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
       <updated>1696422520501</updated>
       <workItem from="1696422522384" duration="8182000" />
       <workItem from="1696502213795" duration="1380000" />
-      <workItem from="1696509934843" duration="1207000" />
+      <workItem from="1696509934843" duration="2400000" />
     </task>
     <task id="LOCAL-00001" summary="Вроде бы всё сделал верно">
       <created>1696428664359</created>
@@ -81,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696430145192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Исправил_замечания">
+      <created>1696511195101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696511195101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Вроде бы всё сделал верно" />
     <MESSAGE value="Первая домашка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая домашка" />
+    <MESSAGE value="Исправил_замечания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил_замечания" />
   </component>
 </project>
